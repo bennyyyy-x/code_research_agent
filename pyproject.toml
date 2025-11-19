@@ -1,0 +1,14 @@
+[project]
+name = "code-research-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.21.2",
+    "open-deep-research",
+    "openai>=2.8.1",
+]
+
+[tool.uv.sources]
+open-deep-research = { path = "../open_deep_research" }
