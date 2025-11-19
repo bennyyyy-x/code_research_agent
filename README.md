@@ -1,20 +1,8 @@
-# Code Research Agent (MCP + LangChain)
+# Code Research Agent
 
 A lightweight **local codebase exploration agent** built using the **Model Context Protocol (MCP)**.
 
 This tool allows an AI model to inspect, search, and analyze your local repositories through a controlled tool interface.
-
----
-
-## Features
-
-- **Browse project folders** under `~/Projects`
-- **Set an active repository** for exploration
-- **List all files** in the repo
-- **Read file contents**
-- **Search inside the repo** using keyword matching
-- **Find files by name or extension**
-- Fully integrated with **LangChain agents**, **OpenAI models**, and **MCP FastMCP server**
 
 ---
 
